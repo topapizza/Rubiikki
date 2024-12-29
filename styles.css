@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+h1{
+    color: aqua;
+    text-align: center;
+    font-size: 100%;
+}
+p{
+    color: aqua;
+    font-size: 100%;
+    text-align: center;
+}
+.algBox{
+    display: flex;
+    justify-content: left;
+    flex-direction:row;
+
+    outline: 1px solid rgb(10, 27, 119);
+    max-width: 80vw;
+    height: 300px;
+}
+
+#algPic{
+    flex-grow: 0;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.textStuff{
+    display: flex;
+    flex-direction: column;
+}
+#algHeader{
+    margin-bottom: 10px;
+}
+#alg{
+    margin-top: 10px;
+}
